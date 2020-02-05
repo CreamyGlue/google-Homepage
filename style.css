@@ -2,6 +2,12 @@ body{
     color: black;
     font-family: import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
     text-align: center;
+    
+    margin: 250;
+    min-height: 100%;
+ 
+  
+    
 
 
 }
@@ -11,12 +17,32 @@ button{
     border: none;
     color: grey;
     padding: 10px 12px;
-    text-align: center;
+    
+    
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     font-size: 16px;
+    width: 140;
+ 
+}
+
+image{
+    display: block;
+    margin: 0 auto;
+}
+
+input{
+    width: 480;
+    height: 40px;
+
+    padding: 8px 10px;
+    border-radius: 25px;
+    
     
 }
-input{
-    width: fit-content;
+
+.divider{
+    width: 7px;
+    height:auto;
+    display: inline-block;
 }
