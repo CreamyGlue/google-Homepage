@@ -18,7 +18,7 @@ button{
     padding: 10px 12px;
     position: relative;
     
-    bottom: -200px;
+    bottom: -175px;
     left: 1px;
     
     
@@ -30,18 +30,21 @@ button{
 }
 
 input{
-    width: 480;
+    
+    width: 520px;
     height: 40px;
-    margin:auto;
-    display: inline-block;
-    padding: 10px 12px;
-
-    padding: 8px 10px;
-    border-radius: 25px;
+    padding: 0px, 40px;
+    border-width: 1pt;
+    border-style: solid;
+    border-color: rgba(201, 202, 201, 0.973);
+    border-radius: 50px;
+    margin-bottom: 20px;
+   
 
     position: relative;
-    bottom: -185px;
+    bottom: -175px;
     left: 1px;
+
     
     
 }
